@@ -74,7 +74,7 @@ body {
 }
 
 .navbar .buttons .signin:hover {
-  color: #47b2e4;
+  color: #f3f3f1;
 }
 
 .navbar .buttons .signup {
@@ -86,7 +86,7 @@ body {
 }
 
 .navbar .buttons .signup:hover {
-  background-color: #47b2e4;
+  background-color: #e1e447;
   color: #000000;
 }
 
@@ -113,7 +113,7 @@ body {
 .hero p {
   font-size: 1.2rem;
   margin-bottom: 20px;
-  color: #c9c7c7;
+  color: #252525;
 }
 
 .hero-section .img img {
@@ -460,11 +460,11 @@ body {
   color: #4267B2;
 }
 .content-2:hover{
-  border-color: #075e54;
-  background: #075e54;
+  border-color: #00b8a2;
+  background: #00b8a2;
 }
 .content-2:hover a{
-  color: #075e54;
+  color: #00b8a2;
 }
 .content-3:hover{
   border-color: #ff0000;
@@ -472,6 +472,13 @@ body {
 }
 .content-3:hover a{
   color: #ff0000;
+}
+.content-4:hover{
+  border-color: #007bff;
+  background: #007bff;
+}
+.content-4:hover a{
+  color: #007bff;
 }
 .content h2{
   font-size: 30px;
@@ -608,6 +615,9 @@ body {
 .team-img {
   width: 100%;
   height: 100%;
+  border-radius: 50%;
+  border: 4px solid rgb(238, 255, 0);
+  margin-bottom: 20px;
 }
 
 .team-card-container {
