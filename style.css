@@ -1,11 +1,15 @@
 /* Importing Google font - Open Sans */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=McLaren&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'McLaren', cursive;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -19,7 +23,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #ffffff63;
+  background-color: #5da3ff;
 }
 
 .navbar {
@@ -29,6 +33,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px 15px;
+  
 }
 
 .navbar .logo a {
@@ -53,7 +58,7 @@ body {
 }
 
 .navbar .links a:hover {
-  color: #47b2e4;
+  color: #f8fafa;
 }
 
 .navbar .buttons a {
@@ -257,7 +262,6 @@ body {
   padding-right: 30px;
   padding-bottom: 10px;
   padding-left: 30px;
-  background-image: url("https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/bb29.png");
   background-position-x: initial;
   background-position-y: initial;
   background-size: cover;
@@ -265,8 +269,6 @@ body {
   background-origin: initial;
   background-clip: initial;
   background-color: initial;
-  background-repeat-x: no-repeat;
-  background-repeat-y: no-repeat;
 }
 
 .responsive-container-block.Container {
@@ -534,16 +536,14 @@ body {
   padding-right: 50px;
   padding-bottom: 10px;
   padding-left: 50px;
-  background-color: rgb(244, 252, 255);
+  background-color: rgb(255, 255, 255);
 }
 
 .inner-container {
   max-width: 1320px;
   flex-direction: column;
   align-items: center;
-  margin-top: 50px;
   margin-right: auto;
-  margin-bottom: 50px;
   margin-left: auto;
 }
 
@@ -555,19 +555,18 @@ body {
   font-size: 35px;
   font-weight: 700;
   line-height: 48px;
-  color: rgb(0, 135, 177);
+  color: rgb(0, 0, 0);
   margin: 0 0 10px 0;
 }
 
 .section-subhead-text {
   font-size: 25px;
-  color: rgb(153, 153, 153);
+  color: rgb(255, 69, 69);
   line-height: 35px;
   max-width: 470px;
   text-align: center;
   margin-top: 0px;
   margin-right: 0px;
-  margin-bottom: 60px;
   margin-left: 0px;
 }
 
@@ -590,7 +589,7 @@ body {
 .name {
   font-size: 25px;
   font-weight: 700;
-  color: rgb(102, 102, 102);
+  color: rgb(0, 0, 0);
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 5px;
@@ -600,10 +599,9 @@ body {
 .position {
   font-size: 25px;
   font-weight: 700;
-  color: rgb(0, 135, 177);
+  color: rgb(255, 0, 0);
   margin-top: 0px;
   margin-right: 0px;
-  margin-bottom: 50px;
   margin-left: 0px;
 }
 
@@ -614,7 +612,6 @@ body {
 
 .team-card-container {
   width: 280px;
-  margin: 0 0 40px 0;
 }
 
 @media (max-width: 500px) {
