@@ -1007,7 +1007,7 @@ body {
 }
 
 .footer-center i:hover {
-  color: var(--gblue);
+  color: #a006f3c9;
 }
 
 /* Hovering effect for footer-center links */
@@ -1047,7 +1047,7 @@ body {
 
 .footer-distributed .footer-icons a:hover {
   transform: scale(1.2);
-  color: var(--white);
+  color: #a006f3c9;
 }
 
 @media (max-height: 600px) {
